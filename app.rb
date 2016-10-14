@@ -3,6 +3,7 @@ require 'haml'
 
 # Listen on all interfaces
 set :bind, '0.0.0.0'
+set :port, '9292'
 
 before do
   # Get information from local repository
