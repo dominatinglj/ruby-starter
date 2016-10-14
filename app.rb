@@ -1,6 +1,9 @@
 require 'sinatra'
 require 'haml'
 
+# Listen on all interfaces
+set :bind, '0.0.0.0'
+
 before do
   # Get information from local repository
   @gitInfo = {
