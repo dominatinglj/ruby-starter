@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title This is the Title in a title tag within the head tag
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "styles.css"}
+  %body
+    #content
+      %section.splash
+        .content
+          %h2 Hello World!
+          %h4 Your web application is running!
+          %p
+            Make sure to
+            %b commit
+            or add a
+            %b branch
+            to see your changes show up below.
+      %section.info
+        %p
+          Current branch:
+          %b= name # Variable from gitInfo object set to local
+        %p
+          Latest commit:
+          %b= shortSHA
+        %p
+          Last commit author:
+          %b= lastCommitAuthor
