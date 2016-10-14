@@ -86,9 +86,7 @@ This is a terminal session into a container launched from your template. This is
 
 This is the Environment URL corresponding to the container launched from the default branch. Check [this](https://support.runnable.com/hc/en-us/articles/212802006-Runnable-URLs) article out for more about Runnable URLs.
 
-
-* *Save &amp; Build* to save our changes and trigger your first build. ![Trigger Build](https://support.runnable.com/hc/en-us/article_attachments/203162596/Screen_Shot_2016-03-16_at_9.26.49_PM.png)
-
+* *Save &amp; Build* to save our changes and trigger your first build. 
 * When you’re ready, click *Done* to see a summary of your new container.  
 * If everything went well, your build will complete successfully. Anytime you run across an error that you need help with, we have developers ready to help in real-time. Click on the chat bubble on the bottom left!  
 
