@@ -12,5 +12,5 @@ RUN bundle install
 ADD . /app
 WORKDIR /app
 
-EXPOSE 9292
+EXPOSE 3000
 CMD ruby app.rb
