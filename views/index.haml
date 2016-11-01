@@ -4,23 +4,19 @@
     %title Runnable Starter Application
     %link{:rel => :stylesheet, :type => :"text/css", :href => "styles.css"}
   %body
-    #content
-      %section.splash
-        %h2 Hello World!
-        %h4 Your web application is running!
-        %p
-          Make sure to
-          %b commit
-          or add a
-          %b branch
-          to see your changes show up below.
-      %section.info
+    %div
+      %section
+        %h1 Hello World!
+        %h2 Your web application is running!
+        %p 
+          Make a commit to see your changes show up below.
+      %section
         %p
           Current branch:
           %b= name # Variable from gitInfo object set to local
         %p
-          Latest commit:
+          Commit:
           %b= shortSHA
         %p
-          Last commit author:
+          Commit author:
           %b= lastCommitAuthor
